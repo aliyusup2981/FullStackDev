@@ -1,18 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
-
-/* Typography is the way that text is arranged and presented. */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
 
 body {
   padding: 10%;
   font-size: 2rem;
-  font-family: "Grechen Fuemen", sans-serif;
+  font-family: "cinzel", sans-serif;
 }
 
-/* input,
-button {
-  font: inherit;
-} */
+a {
+  color: hsl(207, 44%, 49%);
+}
 
-p {
-  line-height: 1.5;
+a:visited {
+  color: purple;
+}
+
+a:hover,
+a:focus {
+  color: hsl(207, 44%, 49%, 0.8);
+  background: gold;
+}
+
+a:active {
+  color: red;
 }
