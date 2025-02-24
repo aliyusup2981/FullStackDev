@@ -1,25 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
 
 body {
-  padding: 10%;
+  padding: 5% 10%;
   font-size: 2rem;
-  font-family: "cinzel", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 
-a {
-  color: hsl(207, 44%, 49%);
+ol {
+  list-style-type: lower-alpha;
 }
 
-a:visited {
-  color: purple;
+ul {
+  list-style-type: square;
+  text-align: center;
+  list-style-position: inside;
+  color: #00f;
+  line-height: 1.6;
+  /* list-style-image: url("checkmark.png");
+  list-style: square url("checkmark.png") inside; */
 }
 
-a:hover,
-a:focus {
-  color: hsl(207, 44%, 49%, 0.8);
-  background: gold;
+ul li:nth-child(2) {
+  color: #f00;
 }
 
-a:active {
-  color: red;
+ul ::marker {
+  color: green;
+  font-family: fantasy;
+  font-size: 1em;
+  content: "Only $5 >> ";
 }
